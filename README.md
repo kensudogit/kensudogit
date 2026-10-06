@@ -52,6 +52,76 @@ Six flagship projects are selected to show complementary engineering strengths r
 
 ---
 
+## 📐 Design Quality Automation
+
+```text
+Design Standards / Guidelines
+            │
+            ▼
+     Requirement Extraction
+            │
+            ▼
+   DesignStandardChecklist
+            │
+      ┌─────┴─────┐
+      ▼           ▼
+ Review Items   Traceability
+      │           │
+      └─────┬─────┘
+            ▼
+ AI-assisted Review
+            │
+            ▼
+ Reusable Quality Assets
+```
+
+- [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) — flagship design-quality automation asset that converts standards and rules into practical review criteria.
+- **Traceability** — review items retain their relationship to the source standard instead of becoming an unexplained checklist.
+- **Cross-standard reuse** — screen, API, database, batch, security, coding and test standards can be handled through one review-oriented workflow.
+- **AI-assisted structuring** — natural-language standards can be transformed into repeatable engineering checks while preserving human review.
+- **Governance value** — the output is designed for actual design reviews, not merely summarization of source documents.
+
+This flagship represents the portfolio's core engineering principle: **turn implicit engineering knowledge into explicit, reusable and reviewable quality assets**.
+
+---
+
+## ☁️ Enterprise GenAI on AWS
+
+```text
+Documents / Knowledge / Data
+             │
+             ▼
+      Ingestion / Indexing
+             │
+             ▼
+      Bedrock Knowledge Base
+             │
+      ┌──────┼────────┐
+      ▼      ▼        ▼
+     RAG   Agents  Guardrails
+      │      │        │
+      └──────┼────────┘
+             ▼
+      Evaluation Layer
+             │
+             ▼
+   Enterprise AI Application
+             │
+             ▼
+      Terraform / AWS
+```
+
+- [**BedrockKnowledgeBase**](https://github.com/kensudogit/BedrockKnowledgeBase) — flagship AWS GenAI architecture spanning Bedrock, Knowledge Bases, Agents, guardrails, evaluation and infrastructure as code.
+- **RAG with evidence** — enterprise knowledge retrieval is treated as a first-class architecture capability rather than prompt-only augmentation.
+- **Guardrails and evaluation** — safety controls and measurable quality are part of the system boundary.
+- **Agent-ready architecture** — retrieval and controlled tool-oriented workflows can coexist in the same platform.
+- **Infrastructure reproducibility** — Terraform connects application-level GenAI design to repeatable AWS deployment.
+- **Operational feedback** — telemetry, datasets and evaluation workflows support iterative improvement rather than one-time demos.
+
+This flagship demonstrates the path from **LLM prototype → governed RAG/agent architecture → evaluated and reproducible enterprise GenAI platform**.
+
+---
+
 ## 🤖 AI Engineering Platform
 
 ```text
