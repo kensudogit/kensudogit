@@ -253,6 +253,23 @@ The connected GitHub tooling currently does not expose repository rename/delete/
 - For successor-based repositories, verify the README points to the maintained implementation before archive execution.
 - Archive operations are repository-state changes and should be executed only after the final target set is explicitly approved.
 
+## B Review — Demotion Candidates
+
+A first-pass review of B-tier repositories identified a small set that should be considered for B → C demotion. Repository size alone is not used as the decision criterion; differentiation, implementation narrative, overlap, and portfolio value are considered together.
+
+| Repository | Current assessment | Recommended action |
+|---|---|---|
+| doma2-prj | Minimal README with encoding corruption; generic Doma2 project name and weak standalone narrative | **B → C candidate**; retain docker-db2 as the stronger DB2/Doma2 implementation |
+| laravel-prj | Primarily a generic Laravel/Next.js/Flutter development-environment guide | **B → C candidate** unless converted into a concrete product/application |
+| lambda-ftn | Interesting Fortran rewrite experiment, but README explicitly documents demo/in-memory behavior and incomplete real AWS integration | **B → C candidate**; keep as experimental reference only |
+| encounter | Very small repository but a distinct dating/matching application narrative | **Keep B for now**; size alone is insufficient reason to demote |
+| express-prj | Small but has a clear YouTube trend analytics/scoring product narrative | **Keep B** |
+| pos-selfreg-workingoncrowd | Small but distinct POS/self-checkout + AWS architecture domain | **Keep B** |
+| docker-db2 | Distinct air-cargo + IBM DB2 + Spring Boot/Doma2 implementation | **Keep B** |
+| cooola | Distinct warehouse-management domain with Spring Boot, AWS and observability stack | **Keep B** |
+
+This review intentionally avoids mass-demoting B-tier repositories. The next B-tier pass should focus on generic framework projects, duplicated domain implementations, and repositories whose README promises significantly more than the implementation demonstrates.
+
 ## Governance Rules
 
 1. Keep S limited to a small set of clearly differentiated flagship projects.
