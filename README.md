@@ -34,23 +34,7 @@ Six flagship projects are selected to show complementary engineering strengths r
 
 ---
 
-## 🧭 Engineering Portfolio
 
-| Track | Representative projects | What they demonstrate |
-|---|---|---|
-| 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [BedrockKnowledgeBase](https://github.com/kensudogit/BedrockKnowledgeBase) · [neo4j-app](https://github.com/kensudogit/neo4j-app) · [chatbot](https://github.com/kensudogit/chatbot) | Reusable AI skills, agents, AWS Bedrock/RAG, knowledge graphs and production-oriented chat foundations |
-| 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
-| 📈 **FinTech & Quant** | [FinancialStrategyOptimizer](https://github.com/kensudogit/FinancialStrategyOptimizer) · [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) | Strategy optimization, FX/quant analytics, enterprise financial AI and equity AI agents |
-| 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MedicalImageRecognition](https://github.com/kensudogit/MedicalImageRecognition) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) | Clinical interoperability, medical imaging AI, medical voice AI and welfare-service workflows |
-| ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
-| 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
-| 🏭 **Legacy Modernization & Knowledge Succession** | [Code_Migration](https://github.com/kensudogit/Code_Migration) · [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Controlled AI transformation, knowledge preservation, COBOL mapping and system-level migration |
-| 🏢 **Enterprise SaaS** | [KadenSaas](https://github.com/kensudogit/KadenSaas) · [membership](https://github.com/kensudogit/membership) · [parking](https://github.com/kensudogit/parking) | Multi-tenant AI calling, microservices, payments, reservations and operational platforms |
-| 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
-| 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
-| 🧠 **Optimization** | [heuristic-optimizer](https://github.com/kensudogit/heuristic-optimizer) | Heuristic algorithms, solution search and optimization-oriented system design |
-
----
 
 ## 📐 Design Quality Automation
 
@@ -122,29 +106,7 @@ This flagship demonstrates the path from **LLM prototype → governed RAG/agent 
 
 ---
 
-## 🤖 AI Engineering Platform
 
-```text
-                         AI Engineering
-                               │
-      ┌────────────┬───────────┼───────────┬────────────┐
-      ▼            ▼           ▼           ▼            ▼
- Skills Platform  AI Agent   AWS GenAI   Knowledge     Chat Foundation
-      │            │           │          Graph             │
-ChatgptSkills   AI-agent   Bedrock KB   neo4j-app        chatbot
- Catalog        Tools /     RAG/Agents   Relationships   Auth / History
- Reuse/Sync     Streaming   Guardrails   Graph Search   Operations
-```
-
-- [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) — reusable AI skill catalog with ZIP/Git ingestion, search, synchronization and AWS-ready deployment.
-- [**AI-agent**](https://github.com/kensudogit/AI-agent) — real-time conversational agent with streaming, voice input, tool execution and persistent sessions.
-- [**BedrockKnowledgeBase**](https://github.com/kensudogit/BedrockKnowledgeBase) — enterprise AWS generative-AI platform covering Bedrock, Knowledge Bases, Agents, guardrails, evaluation, RAG and Terraform IaC.
-- [**neo4j-app**](https://github.com/kensudogit/neo4j-app) — full-stack knowledge-graph implementation using Neo4j, FastAPI and Next.js for relationship-oriented retrieval.
-- [**chatbot**](https://github.com/kensudogit/chatbot) — operational AI application foundation emphasizing authentication, conversation history, REST APIs and monitoring.
-
-Together these projects demonstrate the path from **reusable AI capabilities → autonomous agents → enterprise RAG → graph knowledge → operational application foundations**.
-
----
 
 ## 📈 FinTech AI Portfolio
 
@@ -176,19 +138,7 @@ Together these projects form a layered portfolio from **market/equity analytics 
 
 ---
 
-## 🔄 Architecture Migration Series
 
-```text
-Go / GraphQL baseline
-        │
-        ├── Java / Spring GraphQL
-        ├── Kotlin
-        └── intra-mart / Enterprise Integration
-```
-
-The [ANDPAD architecture series](https://github.com/kensudogit/andpad) explores how to preserve the **domain model, GraphQL contract and frontend experience** while changing backend technology and enterprise integration layers.
-
----
 
 ## 🔄 AI-Assisted Legacy Modernization
 
@@ -254,21 +204,7 @@ Together these projects cover **clinical interoperability, specialized medical-i
 
 ---
 
-## ☁️ Cloud Architecture
 
-```text
-Content / Data
-     │
-     ├── Next.js ── DynamoDB / S3       → slp-next
-     │
-     └── API Gateway ── Lambda ── DynamoDB
-                         │
-                         └── Async scraping / processing
-```
-
-This pair demonstrates both the application-facing and serverless-processing sides of AWS-oriented development.
-
----
 
 ## 📞 Enterprise AI Calling SaaS
 
@@ -307,6 +243,22 @@ The earlier [**telemarketing-**](https://github.com/kensudogit/telemarketing-) r
 
 ---
 
+## 🧭 Supporting Portfolio
+
+Beyond the six flagships, specialist repositories provide depth without competing for the primary portfolio narrative.
+
+| Area | Selected supporting assets | Focus |
+|---|---|---|
+| **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [neo4j-app](https://github.com/kensudogit/neo4j-app) · [chatbot](https://github.com/kensudogit/chatbot) | Skills, agents, knowledge graphs and operational AI applications |
+| **Data / AI Infrastructure** | [DataInfrastructureSystem](https://github.com/kensudogit/DataInfrastructureSystem) · [RagAzure](https://github.com/kensudogit/RagAzure) | Multi-source ETL/ELT, DWH, BI/AI serving and Azure RAG |
+| **AI Software Delivery** | [WPAIPublisher](https://github.com/kensudogit/WPAIPublisher) | Multi-AI delivery, quality gates, visual regression, CI/CD and controlled deployment |
+| **Cloud / Serverless** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | DynamoDB/S3, API Gateway, Lambda and asynchronous processing |
+| **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Preserving domain/API contracts across Go, Java, Kotlin and enterprise stacks |
+| **Optimization** | [heuristic-optimizer](https://github.com/kensudogit/heuristic-optimizer) | Reproducible heuristic search and constrained optimization |
+| **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Geospatial layers, weather visualization and disaster information |
+
+---
+
 ## 🛠 Technology Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -326,17 +278,7 @@ The earlier [**telemarketing-**](https://github.com/kensudogit/telemarketing-) r
 
 ## 🔬 Current R&D
 
-```text
-Engineering Knowledge
-        ↓
-Reusable Standards & Skills
-        ↓
-AI-assisted Review & Automation
-        ↓
-Production-ready Software Assets
-```
-
-Current themes: **AI Engineering · Design Quality Automation · FinTech AI / Quant · Healthcare AI & Digital Health · Cloud/Serverless · Architecture Migration · Legacy Modernization · Knowledge Succession · Enterprise SaaS · Optimization**
+Current focus: **AI Engineering · Design Quality Automation · Enterprise GenAI/RAG · FinTech/Quant · Healthcare AI · AI Software Delivery · Legacy Modernization · Data/Cloud Architecture**.
 
 ## 💡 Engineering Philosophy
 
