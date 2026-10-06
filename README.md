@@ -294,7 +294,7 @@ Beyond the six flagships, specialist repositories provide depth without competin
 
 ## 🔬 Current R&D
 
-Current focus: **AI Engineering · Design Quality Automation · Enterprise GenAI/RAG · FinTech/Quant · Healthcare AI · AI Software Delivery · Legacy Modernization · Data/Cloud Architecture**.
+Current investment focus: **Enterprise AI / RAG / AI Engineering · FinTech / Quant / Optimization · Software Engineering Automation**. Healthcare AI and Enterprise SaaS are maintained as domain showcases.
 
 ## 💡 Engineering Philosophy
 
