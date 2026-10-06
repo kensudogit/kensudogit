@@ -187,25 +187,57 @@ The S tier remains capped at six. These A-tier repositories are already strong e
 - [FinancialStrategyOptimize](../FinancialStrategyOptimize)
 - [shikuchoson-hazardmap-template](../shikuchoson-hazardmap-template)
 
-## C Action Notes
+## C Final Disposition
 
-| Repository | Recommended action |
+The 24 C-tier repositories are now divided into three operational groups. **This classification is a plan; no repository is marked here as already archived.**
+
+### 1. Ready to Archive — 17
+
+These repositories are empty, template/reference-oriented, minimally differentiated, or otherwise do not justify space in the active portfolio.
+
+| Repository | Reason |
 |---|---|
-| fire-caption-micro | Superseded by fire-caption-micro1; README marked superseded; archive candidate |
-| microservice | Superseded by micro-service/chatbot; README marked superseded; archive candidate |
-| Logistics_Defense | Superseded by defence_logistics-; README marked superseded; archive candidate |
-| as400 | Legacy reference superseded by cobol / Code_Migration / transplant; README marked superseded |
-| FinancialStrategyOptimize | Empty predecessor; FinancialStrategyOptimizer is the active implementation |
-| ReceivablesManagement | **Hold**: empty repository may be useful as the corrected future name for current ReservationManagement |
-| RAG / RagPrj | Consolidate around BedrockKnowledgeBase, TechnologySuccession, and RagAzure |
-| auction | Empty predecessor; retain auction-20250809 |
-| Crowdfinding | Empty predecessor; retain Crowdfunding |
-| react-examples / nextjs-zustand-sample | Empty/sample repositories; archive candidates |
-| pluszero-prj / pluszero-test | Template-level React/Vite repositories; archive candidates |
-| spring-petclinic / greenhouse | Upstream/reference-oriented projects; low differentiation for this portfolio |
-| source / jenkins | Insufficient portfolio narrative; archive candidates unless a specific purpose is restored |
-| Logistics | README/content quality does not currently support portfolio presentation |
-| rust / internet-banking-front / gitlabFlowDevelopment / shikuchoson-hazardmap-template | Empty or minimal repositories; archive candidates |
+| react-examples | Empty/sample repository |
+| spring-mvc-showcase | Minimal reference repository |
+| spring-petclinic | Upstream/reference-oriented sample |
+| source | Insufficient portfolio narrative |
+| RAG | Empty predecessor |
+| auction | Empty predecessor; auction-20250809 retained |
+| Crowdfinding | Empty predecessor; Crowdfunding retained |
+| Logistics | Current content/README quality does not support portfolio presentation |
+| greenhouse | Large upstream/reference-oriented project with low portfolio differentiation |
+| rust | Empty repository |
+| jenkins | Minimal repository without a portfolio narrative |
+| pluszero-prj | Template-level React/Vite project |
+| pluszero-test | Template-level React/Vite project |
+| internet-banking-front | Empty repository |
+| nextjs-zustand-sample | Empty/sample repository |
+| gitlabFlowDevelopment | Verified empty repository |
+| shikuchoson-hazardmap-template | Verified empty repository |
+
+### 2. Successor Confirmed — Archive After Notice/Link Check — 6
+
+| Repository | Successor / consolidation target | Status |
+|---|---|---|
+| RagPrj | BedrockKnowledgeBase / TechnologySuccession / RagAzure | Minimal predecessor; successor link/notice still worth confirming |
+| microservice | micro-service / chatbot | Superseded README notice already added |
+| fire-caption-micro | fire-caption-micro1 | Superseded README notice already added |
+| Logistics_Defense | defence_logistics- | Superseded README notice already added |
+| as400 | cobol / Code_Migration / transplant | Superseded README notice already added |
+| FinancialStrategyOptimize | FinancialStrategyOptimizer | Verified empty predecessor; successor relationship confirmed |
+
+### 3. Hold for Naming Cleanup — 1
+
+| Repository | Decision |
+|---|---|
+| ReceivablesManagement | **Do not archive yet.** It is empty, but the name is useful as the corrected destination for the current ReservationManagement repository, whose content is actually a receivables-management system. Resolve repository naming first. |
+
+### Archive execution rule
+
+- Archive is preferred to deletion so historical references remain available.
+- Do not archive ReceivablesManagement until the naming collision is resolved.
+- For successor-based repositories, verify the README points to the maintained implementation before archive execution.
+- Archive operations are repository-state changes and should be executed only after the final target set is explicitly approved.
 
 ## Governance Rules
 
