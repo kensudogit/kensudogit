@@ -17,12 +17,20 @@
 
 ## S — Flagship
 
-- [DesignStandardChecklist](../DesignStandardChecklist)
-- [ChatgptSkillsCatalog](../ChatgptSkillsCatalog)
-- [BedrockKnowledgeBase](../BedrockKnowledgeBase)
-- [Fintech](../Fintech)
-- [NextGen_AI_Healthcare_Platform](../NextGen_AI_Healthcare_Platform)
-- [TechnologySuccession](../TechnologySuccession)
+Final six selected for maximum differentiation across architecture, AI, cloud/data, domain engineering, and modernization:
+
+- [DesignStandardChecklist](../DesignStandardChecklist) — Design Quality Automation
+- [BedrockKnowledgeBase](../BedrockKnowledgeBase) — AWS / Enterprise GenAI / RAG
+- [NextGen_AI_Healthcare_Platform](../NextGen_AI_Healthcare_Platform) — Healthcare AI Integration Platform
+- [FinancialStrategyOptimizer](../FinancialStrategyOptimizer) — FinTech / Quant Strategy Integration
+- [KadenSaas](../KadenSaas) — Enterprise Domain SaaS / AI Calling Architecture
+- [Code_Migration](../Code_Migration) — AI-Assisted Legacy Modernization
+
+### Final selection rationale
+
+The six slots are intentionally diversified. Each flagship demonstrates a different high-value engineering capability: reusable design governance, managed GenAI/RAG, healthcare interoperability, quantitative optimization, multi-tenant real-time SaaS, and legacy modernization.
+
+Strong former/current candidates remain A-tier when their story overlaps a selected flagship or is better used as a specialist supporting asset. In particular, ChatgptSkillsCatalog remains a strong AI engineering asset; Fintech remains the enterprise financial-AI layer supporting the more implementation-focused FinancialStrategyOptimizer; TechnologySuccession remains a strong knowledge-succession/RAG specialist; MedicalImageRecognition, DataInfrastructureSystem, and WPAIPublisher remain promotion-ready specialist assets.
 
 ## A — Strong Specialist Assets
 
@@ -31,14 +39,11 @@
 - [neo4j-app](../neo4j-app)
 - [fx](../fx)
 - [StockPricePpredictionTool-](../StockPricePpredictionTool-)
-- [FinancialStrategyOptimizer](../FinancialStrategyOptimizer)
 - [heuristic-optimizer](../heuristic-optimizer)
-- [KadenSaas](../KadenSaas)
 - [OutboundCallingSaas](../OutboundCallingSaas)
 - [MediCall_AI](../MediCall_AI)
 - [DisabilityClaim](../DisabilityClaim)
 - [MedicalImageRecognition](../MedicalImageRecognition)
-- [Code_Migration](../Code_Migration)
 - [cobol](../cobol)
 - [transplant](../transplant)
 - [RagAzure](../RagAzure)
@@ -51,24 +56,30 @@
 - [defence_logistics-](../defence_logistics-)
 - [fire-caption-micro1](../fire-caption-micro1)
 
-## A Review — S Promotion Pipeline
+- [ChatgptSkillsCatalog](../ChatgptSkillsCatalog)
+- [Fintech](../Fintech)
+- [TechnologySuccession](../TechnologySuccession)
+## A Review — Promotion-Ready Specialists
 
-The S tier remains intentionally capped at six flagship repositories. The following A-tier assets are the strongest **next S candidates** rather than immediate promotions.
+The S tier remains capped at six. These A-tier repositories are already strong enough to substitute into the flagship set when the target audience or role changes.
 
-| Priority | Repository | Assessment |
-|---|---|---|
-| 1 | [FinancialStrategyOptimizer](../FinancialStrategyOptimizer) | Strong cross-asset integration: FX + equity + heuristic optimization + backtesting; strongest candidate for a future FinTech/Quant flagship |
-| 2 | [KadenSaas](../KadenSaas) | Strong domain architecture with dialing gate, idempotency, tenant isolation, voice/AI integration, and operational safeguards |
-| 3 | [Code_Migration](../Code_Migration) | Clear AI-assisted modernization story; complements COBOL reference and system-level migration architecture |
-| 4 | [MedicalImageRecognition](../MedicalImageRecognition) | Standalone healthcare AI service with local CV/OpenAI Vision, benchmarking, caching, and concurrency controls |
-| 5 | [DataInfrastructureSystem](../DataInfrastructureSystem) | Strong data-engineering architecture across multi-channel ingestion, ETL/ELT, DWH, BI, and AI |
-| 6 | [WPAIPublisher](../WPAIPublisher) | Distinct AI software-delivery workflow with quality gates, visual regression, RAG reuse, CI/CD, and WordPress deployment |
+| Repository | Best use |
+|---|---|
+| [MedicalImageRecognition](../MedicalImageRecognition) | Healthcare AI / Medical Imaging specialist |
+| [DataInfrastructureSystem](../DataInfrastructureSystem) | Data Engineering / AI Infrastructure specialist |
+| [WPAIPublisher](../WPAIPublisher) | AI Software Delivery / DevOps specialist |
+| [ChatgptSkillsCatalog](../ChatgptSkillsCatalog) | AI engineering / reusable skill platform |
+| [Fintech](../Fintech) | Enterprise financial AI / valuation / lending / RAG |
+| [TechnologySuccession](../TechnologySuccession) | Knowledge succession / manufacturing RAG |
 
-### A-tier decisions
+### Portfolio switching rule
 
-- **Keep A:** AI-agent, chatbot, neo4j-app, fx, StockPricePpredictionTool-, FinancialStrategyOptimizer, heuristic-optimizer, KadenSaas, OutboundCallingSaas, MediCall_AI, DisabilityClaim, MedicalImageRecognition, Code_Migration, cobol, transplant, RagAzure, medicalcare-electronic-application, medicalcare-electronic-application-micro, lambda, bosai, WPAIPublisher, DataInfrastructureSystem, defence_logistics-, fire-caption-micro1.
-- **No A → B demotions in this review.** Each A repository currently contributes a differentiated technology, domain, architecture, or modernization story.
-- Future S promotion should normally replace an existing S entry rather than continuously expanding S.
+- **General AI / architecture profile:** use the current S six.
+- **AI platform role:** consider ChatgptSkillsCatalog in place of the most domain-specific flagship.
+- **Data engineering role:** consider DataInfrastructureSystem.
+- **Healthcare AI role:** consider MedicalImageRecognition alongside NextGen_AI_Healthcare_Platform.
+- **DevOps / AI delivery role:** consider WPAIPublisher.
+- **Enterprise financial AI role:** consider Fintech.
 
 ## B — Complementary Assets
 
