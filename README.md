@@ -35,7 +35,7 @@ My engineering focus is turning requirements, design standards and domain knowle
 |---|---|---|
 | 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [chatbot](https://github.com/kensudogit/chatbot) | AI agents, reusable skills, chat foundations, RAG-oriented application architecture |
 | 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
-| 📈 **FinTech & Quant** | [fx](https://github.com/kensudogit/fx) · [internet-banking](https://github.com/kensudogit/internet-banking) · [mortgage_loan](https://github.com/kensudogit/mortgage_loan) | Quant analysis, backtesting, banking, lending and financial workflows |
+| 📈 **FinTech & Quant** | [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) · [internet-banking](https://github.com/kensudogit/internet-banking) | FX/quant analytics, enterprise financial AI, equity AI agents, banking and decision-support workflows |
 | 🏥 **Healthcare AI** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) | Healthcare interoperability, medical AI and voice automation |
 | ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
 | 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
@@ -44,6 +44,28 @@ My engineering focus is turning requirements, design standards and domain knowle
 | 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
 | 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
 | 🧠 **Optimization** | [heuristic-optimizer](https://github.com/kensudogit/heuristic-optimizer) | Heuristic algorithms, solution search and optimization-oriented system design |
+
+---
+
+## 📈 FinTech AI Portfolio
+
+```text
+                    Financial AI
+                         │
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+       fx              Fintech       StockPricePpredictionTool-
+ FX / Quant       Enterprise AI        Equity AI Agent
+        │                │                │
+ Technical/ML     Lending / Value     OOS Evaluation
+ Backtesting      Decision Support    Risk / Execution
+```
+
+- [**fx**](https://github.com/kensudogit/fx) — FX technical/fundamental analysis, ML prediction, backtesting and risk-oriented trading workflows.
+- [**Fintech**](https://github.com/kensudogit/Fintech) — enterprise financial AI for lending, valuation, evidence-led decision support and financial RAG.
+- [**StockPricePpredictionTool-**](https://github.com/kensudogit/StockPricePpredictionTool-) — equity AI agent platform with walk-forward OOS evaluation, risk gates, paper/live execution controls and RAG.
+
+Together these projects cover **market analytics, institutional decision support and AI-assisted investment workflows** rather than presenting FinTech as a single trading application.
 
 ---
 
@@ -144,7 +166,7 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Engineering · Design Quality Automation · Quant/FX · Healthcare AI · Cloud/Serverless · Architecture Migration · Legacy Modernization · Knowledge Succession · Enterprise SaaS · Optimization**
+Current themes: **AI Engineering · Design Quality Automation · FinTech AI / Quant · Healthcare AI · Cloud/Serverless · Architecture Migration · Legacy Modernization · Knowledge Succession · Enterprise SaaS · Optimization**
 
 ## 💡 Engineering Philosophy
 
