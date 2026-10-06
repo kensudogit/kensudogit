@@ -2,7 +2,7 @@
 
 # Kenichi Sudo
 
-### AI / Full-Stack Engineer · Design Quality Automation · FinTech
+### AI / Full-Stack Engineer · Design Quality Automation · FinTech · Healthcare AI
 
 **Turning engineering knowledge into reusable software assets.**
 
@@ -11,7 +11,7 @@
 
 </div>
 
-I build practical AI-powered developer tools, software-quality automation, quantitative finance tools, and production-oriented SaaS. My focus is turning requirements, design standards, and domain knowledge into software that can be reused and improved.
+I build practical AI-powered developer tools, software-quality automation, quantitative finance tools, healthcare AI platforms, and production-oriented SaaS. My focus is turning requirements, design standards, and domain knowledge into software that can be reused and improved.
 
 ---
 
@@ -22,6 +22,7 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | 🤖 **AI Engineering** | AI agents, reusable skills, RAG, MCP and developer automation |
 | 📐 **Design Quality** | Design-standard automation, checklist generation and AI-assisted review |
 | 📈 **FinTech & Quant** | FX analysis, backtesting, strategy optimization and visualization |
+| 🏥 **Healthcare AI** | AI-assisted healthcare platforms, FHIR/HL7 interoperability, DICOM/PACS and voice automation |
 | ☁️ **Cloud & SaaS** | Full-stack business applications and AWS-based systems |
 
 ## ⭐ Selected Projects
@@ -32,8 +33,8 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Reusable AI skills for software-engineering workflows |
 | 📈 [**fx**](https://github.com/kensudogit/fx) | FX / financial-engineering development |
 | 🧠 [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) | Heuristic optimization and solution-search experimentation |
+| 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI with FHIR/HL7, DICOM/PACS and secure interoperability |
 | 🧩 [**KadenSaas**](https://github.com/kensudogit/KadenSaas) | Domain-oriented SaaS engineering |
-| 🤖 [**AI-agent**](https://github.com/kensudogit/AI-agent) | AI-agent implementation and experimentation |
 
 ---
 
@@ -66,7 +67,7 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Heuristic Optimization · Domain-specific SaaS**
+Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Healthcare AI · Heuristic Optimization · Domain-specific SaaS**
 
 ## 💡 Engineering Philosophy
 
@@ -76,6 +77,6 @@ I focus on making requirements explicit, improving software quality, and rapidly
 
 ## 🤝 Collaboration
 
-Interested in **AI development, software architecture, design-quality automation, FinTech and SaaS engineering**.
+Interested in **AI development, software architecture, design-quality automation, FinTech, Healthcare AI and SaaS engineering**.
 
 Explore my repositories for current projects, prototypes and engineering experiments.
