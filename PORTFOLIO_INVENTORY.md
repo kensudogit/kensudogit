@@ -219,12 +219,12 @@ These repositories are empty, template/reference-oriented, minimally differentia
 
 | Repository | Successor / consolidation target | Status |
 |---|---|---|
-| RagPrj | BedrockKnowledgeBase / TechnologySuccession / RagAzure | Minimal predecessor; successor link/notice still worth confirming |
+| RagPrj | BedrockKnowledgeBase / TechnologySuccession / RagAzure | Superseded README notice added |
 | microservice | micro-service / chatbot | Superseded README notice already added |
 | fire-caption-micro | fire-caption-micro1 | Superseded README notice already added |
 | Logistics_Defense | defence_logistics- | Superseded README notice already added |
 | as400 | cobol / Code_Migration / transplant | Superseded README notice already added |
-| FinancialStrategyOptimize | FinancialStrategyOptimizer | Verified empty predecessor; successor relationship confirmed |
+| FinancialStrategyOptimize | FinancialStrategyOptimizer | Superseded README notice added; successor relationship confirmed |
 
 ### 3. Hold for Naming Cleanup — 1
 
