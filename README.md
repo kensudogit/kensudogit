@@ -11,7 +11,7 @@
 
 </div>
 
-I build practical AI systems, developer tools, business platforms and modernization prototypes across **AI Engineering, Design Quality, FinTech, Healthcare AI, Cloud/AWS, Enterprise SaaS and Legacy Modernization**.
+I build practical AI systems, developer tools, business platforms and modernization prototypes across **AI Engineering, Design Quality, FinTech, Healthcare AI & Digital Health, Cloud/AWS, Enterprise SaaS and Legacy Modernization**.
 
 My engineering focus is turning requirements, design standards and domain knowledge into software that can be reused, migrated and improved.
 
@@ -36,7 +36,7 @@ My engineering focus is turning requirements, design standards and domain knowle
 | 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [chatbot](https://github.com/kensudogit/chatbot) | AI agents, reusable skills, chat foundations, RAG-oriented application architecture |
 | 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
 | 📈 **FinTech & Quant** | [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) · [internet-banking](https://github.com/kensudogit/internet-banking) | FX/quant analytics, enterprise financial AI, equity AI agents, banking and decision-support workflows |
-| 🏥 **Healthcare AI** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) | Healthcare interoperability, medical AI and voice automation |
+| 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) · [medicalcare-electronic-application](https://github.com/kensudogit/medicalcare-electronic-application) | Clinical interoperability, medical voice AI, welfare-service billing and regulated administrative workflows |
 | ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
 | 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
 | 🏭 **Legacy Modernization & Knowledge Succession** | [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [Code_Migration](https://github.com/kensudogit/Code_Migration) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Manufacturing RAG, AI-assisted code conversion and COBOL/CICS/DB2 modernization |
@@ -106,6 +106,30 @@ This track connects **knowledge preservation, source-code modernization and syst
 
 ---
 
+## 🏥 Healthcare AI & Digital Health
+
+```text
+                       Healthcare Platform
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        ▼                     ▼                     ▼
+ Clinical / Hospital       Voice AI          Administrative Systems
+        │                     │                     │
+ NextGen AI Healthcare    MediCall AI       ┌────────┴────────┐
+ FHIR · HL7 · DICOM       Call Automation   ▼                 ▼
+ PACS · EMR · AI          Safe Escalation  DisabilityClaim   Medical e-Application
+                                           Welfare Billing   Approval / Audit
+```
+
+- [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) — hospital interoperability across EMR, PACS/DICOM, HL7/FHIR, secure identity and AI-assisted clinical workflows.
+- [**MediCall_AI**](https://github.com/kensudogit/MediCall_AI) — medical voice automation with appointment workflows, safe escalation, conversation summarization and staff operations.
+- [**DisabilityClaim**](https://github.com/kensudogit/DisabilityClaim) — disability welfare-service billing with recipient management, Excel migration, reproducible calculation/validation and claims-data adapters.
+- [**medicalcare-electronic-application**](https://github.com/kensudogit/medicalcare-electronic-application) — regulated healthcare application workflows with approval, audit trails, document management and medical-imaging AI integration.
+
+Together these projects cover **clinical interoperability, patient communication, welfare-service operations and regulated healthcare administration**.
+
+---
+
 ## ☁️ Cloud Architecture
 
 ```text
@@ -166,7 +190,7 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Engineering · Design Quality Automation · FinTech AI / Quant · Healthcare AI · Cloud/Serverless · Architecture Migration · Legacy Modernization · Knowledge Succession · Enterprise SaaS · Optimization**
+Current themes: **AI Engineering · Design Quality Automation · FinTech AI / Quant · Healthcare AI & Digital Health · Cloud/Serverless · Architecture Migration · Legacy Modernization · Knowledge Succession · Enterprise SaaS · Optimization**
 
 ## 💡 Engineering Philosophy
 
