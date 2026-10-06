@@ -23,7 +23,7 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | 📐 **Design Quality** | Design-standard automation, checklist generation and AI-assisted review |
 | 📈 **FinTech & Quant** | Quant/FX analytics, backtesting, digital banking and lending systems |
 | 🏥 **Healthcare AI** | AI-assisted healthcare platforms, FHIR/HL7 interoperability, DICOM/PACS and voice automation |
-| ☁️ **Cloud & SaaS** | Full-stack business applications and AWS-based systems |
+| ☁️ **Cloud & SaaS** | AWS-backed content search, full-stack business applications and domain SaaS |
 | 🔄 **Architecture Migration** | Cross-stack migration across Go, Java, Kotlin and enterprise platforms while preserving shared API contracts |
 
 ## ⭐ Selected Projects
@@ -46,6 +46,14 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | **Quant / FX** | [**fx**](https://github.com/kensudogit/fx) | Technical & fundamental analysis, ML prediction, backtesting and trading workflows |
 | **Digital Banking** | [**internet-banking**](https://github.com/kensudogit/internet-banking) | Accounts, transfers, transaction history, deposits, lending and multi-factor security |
 | **Lending** | [**mortgage_loan**](https://github.com/kensudogit/mortgage_loan) | Mortgage products, repayment simulation, applications, screening and customer management |
+
+---
+
+## ☁️ Cloud / AWS Project
+
+| Project | Architecture | Focus |
+|---|---|---|
+| ☁️ [**slp-next**](https://github.com/kensudogit/slp-next) | Next.js + TypeScript + DynamoDB + S3 | WordPress-derived content search, caching, health checks and AWS data integration |
 
 ---
 
