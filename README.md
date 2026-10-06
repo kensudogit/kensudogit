@@ -1,75 +1,72 @@
-# Kenichi Sudo 👋
+<div align="center">
+
+# Kenichi Sudo
 
 ### AI / Full-Stack Engineer · Design Quality Automation · FinTech
 
-I build practical software assets that turn engineering knowledge into reusable tools — from AI-assisted design review and developer skills to quantitative finance and production-ready SaaS.
+**Turning engineering knowledge into reusable software assets.**
+
+[![GitHub followers](https://img.shields.io/github/followers/kensudogit?style=flat-square&logo=github)](https://github.com/kensudogit?tab=followers)
+[![Profile](https://img.shields.io/badge/GitHub-kensudogit-181717?style=flat-square&logo=github)](https://github.com/kensudogit)
+
+</div>
+
+I build practical AI-powered developer tools, software-quality automation, quantitative finance tools, and production-oriented SaaS. My focus is turning requirements, design standards, and domain knowledge into software that can be reused and improved.
 
 ---
 
 ## 🚀 Focus Areas
 
-- 🤖 **AI Engineering** — AI agents, reusable skills, developer productivity and automation
-- 📐 **Software Design Quality** — design standards, checklist generation, API/DB/security review
-- 📈 **FinTech & Quant** — FX analysis, backtesting, strategy optimization and visualization
-- ☁️ **Cloud & SaaS** — AWS-based full-stack systems and business applications
+| Area | What I build |
+|---|---|
+| 🤖 **AI Engineering** | AI agents, reusable skills, RAG, MCP and developer automation |
+| 📐 **Design Quality** | Design-standard automation, checklist generation and AI-assisted review |
+| 📈 **FinTech & Quant** | FX analysis, backtesting, strategy optimization and visualization |
+| ☁️ **Cloud & SaaS** | Full-stack business applications and AWS-based systems |
 
-## ⭐ Featured Projects
+## ⭐ Selected Projects
 
-### 📐 [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist)
-Transform software design standards into practical review checklists and quality-improvement workflows.
-
-### 🤖 [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog)
-A catalog of reusable AI skills for software engineering and development workflows.
-
-### 🧩 [KadenSaas](https://github.com/kensudogit/KadenSaas)
-A domain-oriented SaaS project demonstrating practical application architecture.
-
-### 🔎 [survey-monitor-site](https://github.com/kensudogit/survey-monitor-site)
-A monitoring-oriented web application and implementation reference.
-
----
-
-## 🛠 Technology
-
-**Frontend**  
-React · Next.js · TypeScript
-
-**Backend**  
-Java · Spring Boot · Python · FastAPI
-
-**Cloud / Infrastructure**  
-AWS · Docker · GitHub Actions
-
-**Data**  
-PostgreSQL · Oracle · MySQL · DynamoDB
-
-**AI / Engineering**  
-LLM · AI Agents · RAG · MCP · Heuristic Optimization
+| Project | Focus |
+|---|---|
+| 📐 [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) | Converts software design standards into practical review checklists |
+| 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Reusable AI skills for software-engineering workflows |
+| 📈 [**fx**](https://github.com/kensudogit/fx) | FX / financial-engineering development |
+| 🧠 [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) | Heuristic optimization and solution-search experimentation |
+| 🧩 [**KadenSaas**](https://github.com/kensudogit/KadenSaas) | Domain-oriented SaaS engineering |
+| 🤖 [**AI-agent**](https://github.com/kensudogit/AI-agent) | AI-agent implementation and experimentation |
 
 ---
 
-## 🔬 Current Direction
+## 🛠 Technology Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Also:** Oracle · MySQL · DynamoDB · GitHub Actions · LLM · RAG · MCP · Heuristic Optimization
+
+---
+
+## 🔬 Current R&D
 
 ```text
 Engineering Knowledge
         ↓
 Reusable Standards & Skills
         ↓
-AI-assisted Review / Automation
+AI-assisted Review & Automation
         ↓
 Production-ready Software Assets
 ```
 
-Current R&D themes include:
-
-- AI Design Review Platform
-- Design Standard Automation
-- Reusable AI Developer Skills
-- Quantitative Finance / FX Tooling
-- Heuristic Optimization
-- Domain-specific SaaS
-
----
+Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Heuristic Optimization · Domain-specific SaaS**
 
 ## 💡 Engineering Philosophy
 
@@ -77,10 +74,8 @@ Current R&D themes include:
 
 I focus on making requirements explicit, improving software quality, and rapidly turning ideas into practical systems.
 
----
-
 ## 🤝 Collaboration
 
-Interested in AI development, software architecture, design-quality automation, FinTech, and SaaS engineering.
+Interested in **AI development, software architecture, design-quality automation, FinTech and SaaS engineering**.
 
-Explore the repositories below to see current projects and experiments.
+Explore my repositories for current projects, prototypes and engineering experiments.
