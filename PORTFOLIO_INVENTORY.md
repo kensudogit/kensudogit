@@ -11,8 +11,8 @@
 |---|---|---:|
 | S | Flagship portfolio assets | 6 |
 | A | Strong specialist / second-line assets | 24 |
-| B | Complementary, domain, reference, or supporting implementations | 76 |
-| C | Cleanup, integration, superseded, template, or archive candidates | 24 |
+| B | Complementary, domain, reference, or supporting implementations | 73 |
+| C | Cleanup, integration, superseded, template, or archive candidates | 27 |
 | **Total** |  | **130** |
 
 ## S — Flagship
@@ -89,8 +89,6 @@ The S tier remains capped at six. These A-tier repositories are already strong e
 - [encounter](../encounter)
 - [mental-wellness-app](../mental-wellness-app)
 - [auction-20250809](../auction-20250809)
-- [doma2-prj](../doma2-prj)
-- [laravel-prj](../laravel-prj)
 - [RealEstateSurvery](../RealEstateSurvery)
 - [it_consultant](../it_consultant)
 - [integrated-ID-manage](../integrated-ID-manage)
@@ -115,7 +113,6 @@ The S tier remains capped at six. These A-tier repositories are already strong e
 - [Thread](../Thread)
 - [telemarketing-](../telemarketing-)
 - [realestate](../realestate)
-- [lambda-ftn](../lambda-ftn)
 - [ocr](../ocr)
 - [mortgage_loan](../mortgage_loan)
 - [micro-service](../micro-service)
@@ -162,6 +159,9 @@ The S tier remains capped at six. These A-tier repositories are already strong e
 
 ## C — Cleanup / Archive Candidates
 
+- [lambda-ftn](../lambda-ftn)
+- [laravel-prj](../laravel-prj)
+- [doma2-prj](../doma2-prj)
 - [react-examples](../react-examples)
 - [spring-mvc-showcase](../spring-mvc-showcase)
 - [spring-petclinic](../spring-petclinic)
@@ -189,9 +189,9 @@ The S tier remains capped at six. These A-tier repositories are already strong e
 
 ## C Final Disposition
 
-The 24 C-tier repositories are now divided into three operational groups. **This classification is a plan; no repository is marked here as already archived.**
+The 27 C-tier repositories are now divided into three operational groups. **This classification is a plan; no repository is marked here as already archived.**
 
-### 1. Ready to Archive — 17
+### 1. Ready to Archive — 20
 
 These repositories are empty, template/reference-oriented, minimally differentiated, or otherwise do not justify space in the active portfolio.
 
@@ -214,6 +214,9 @@ These repositories are empty, template/reference-oriented, minimally differentia
 | nextjs-zustand-sample | Empty/sample repository |
 | gitlabFlowDevelopment | Verified empty repository |
 | shikuchoson-hazardmap-template | Verified empty repository |
+| doma2-prj | Generic Doma2 project with weak/corrupted portfolio narrative; docker-db2 retained as stronger DB2/Doma2 evidence |
+| laravel-prj | Primarily a generic framework/development-environment guide rather than a differentiated product |
+| lambda-ftn | Experimental Fortran Lambda rewrite with documented demo/in-memory limitations and incomplete AWS integration |
 
 ### 2. Successor Confirmed — Archive After Notice/Link Check — 6
 
@@ -253,15 +256,15 @@ The connected GitHub tooling currently does not expose repository rename/delete/
 - For successor-based repositories, verify the README points to the maintained implementation before archive execution.
 - Archive operations are repository-state changes and should be executed only after the final target set is explicitly approved.
 
-## B Review — Demotion Candidates
+## B Review — First-Pass Decisions
 
-A first-pass review of B-tier repositories identified a small set that should be considered for B → C demotion. Repository size alone is not used as the decision criterion; differentiation, implementation narrative, overlap, and portfolio value are considered together.
+A first-pass review of B-tier repositories identified a small set for evidence-based demotion. The three demotions below are now reflected in the classification counts. Repository size alone is not used as the decision criterion; differentiation, implementation narrative, overlap, and portfolio value are considered together.
 
 | Repository | Current assessment | Recommended action |
 |---|---|---|
-| doma2-prj | Minimal README with encoding corruption; generic Doma2 project name and weak standalone narrative | **B → C candidate**; retain docker-db2 as the stronger DB2/Doma2 implementation |
-| laravel-prj | Primarily a generic Laravel/Next.js/Flutter development-environment guide | **B → C candidate** unless converted into a concrete product/application |
-| lambda-ftn | Interesting Fortran rewrite experiment, but README explicitly documents demo/in-memory behavior and incomplete real AWS integration | **B → C candidate**; keep as experimental reference only |
+| doma2-prj | Minimal README with encoding corruption; generic Doma2 project name and weak standalone narrative | **Moved B → C**; retain docker-db2 as the stronger DB2/Doma2 implementation |
+| laravel-prj | Primarily a generic Laravel/Next.js/Flutter development-environment guide | **Moved B → C**; reconsider only if converted into a concrete product/application |
+| lambda-ftn | Interesting Fortran rewrite experiment, but README explicitly documents demo/in-memory behavior and incomplete real AWS integration | **Moved B → C**; keep as experimental reference only |
 | encounter | Very small repository but a distinct dating/matching application narrative | **Keep B for now**; size alone is insufficient reason to demote |
 | express-prj | Small but has a clear YouTube trend analytics/scoring product narrative | **Keep B** |
 | pos-selfreg-workingoncrowd | Small but distinct POS/self-checkout + AWS architecture domain | **Keep B** |
