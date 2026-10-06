@@ -17,6 +17,22 @@ My engineering focus is turning requirements, design standards and domain knowle
 
 ---
 
+## 🎯 Strategic Focus
+
+Development investment is concentrated in three reusable engineering asset groups:
+
+| Priority | Focus | Core asset | Supporting assets |
+|---|---|---|---|
+| **1** | **Enterprise AI / RAG / AI Engineering** | [BedrockKnowledgeBase](https://github.com/kensudogit/BedrockKnowledgeBase) | TechnologySuccession · AI-agent · neo4j-app · chatbot · ChatgptSkillsCatalog |
+| **2** | **FinTech / Quant / Optimization** | [FinancialStrategyOptimizer](https://github.com/kensudogit/FinancialStrategyOptimizer) | Fintech · fx · StockPricePpredictionTool- · heuristic-optimizer |
+| **3** | **Software Engineering Automation** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Code_Migration · WPAIPublisher · DataInfrastructureSystem |
+
+The goal is not to increase repository count. It is to deepen these asset groups into reusable platforms: **governed enterprise AI**, **reproducible quantitative decision systems**, and **AI-assisted software engineering workflows**.
+
+Healthcare AI and Enterprise SaaS projects remain important **domain showcases** demonstrating how these engineering capabilities can be applied to real business systems.
+
+---
+
 ## ⭐ Featured Work
 
 Six flagship projects are selected to show complementary engineering strengths rather than multiple variations of the same theme.
