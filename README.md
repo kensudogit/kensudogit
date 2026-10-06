@@ -21,7 +21,7 @@ I build practical AI-powered developer tools, software-quality automation, quant
 |---|---|
 | 🤖 **AI Engineering** | AI agents, reusable skills, RAG, MCP and developer automation |
 | 📐 **Design Quality** | Design-standard automation, checklist generation and AI-assisted review |
-| 📈 **FinTech & Quant** | FX analysis, backtesting, strategy optimization and visualization |
+| 📈 **FinTech & Quant** | Quant/FX analytics, backtesting, digital banking and lending systems |
 | 🏥 **Healthcare AI** | AI-assisted healthcare platforms, FHIR/HL7 interoperability, DICOM/PACS and voice automation |
 | ☁️ **Cloud & SaaS** | Full-stack business applications and AWS-based systems |
 
@@ -35,6 +35,16 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | 🧠 [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) | Heuristic optimization and solution-search experimentation |
 | 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI with FHIR/HL7, DICOM/PACS and secure interoperability |
 | 🧩 [**KadenSaas**](https://github.com/kensudogit/KadenSaas) | Domain-oriented SaaS engineering |
+
+---
+
+## 💹 FinTech Portfolio
+
+| Domain | Project | Highlights |
+|---|---|---|
+| **Quant / FX** | [**fx**](https://github.com/kensudogit/fx) | Technical & fundamental analysis, ML prediction, backtesting and trading workflows |
+| **Digital Banking** | [**internet-banking**](https://github.com/kensudogit/internet-banking) | Accounts, transfers, transaction history, deposits, lending and multi-factor security |
+| **Lending** | [**mortgage_loan**](https://github.com/kensudogit/mortgage_loan) | Mortgage products, repayment simulation, applications, screening and customer management |
 
 ---
 
@@ -67,7 +77,7 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Healthcare AI · Heuristic Optimization · Domain-specific SaaS**
+Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Digital Banking · Lending · Healthcare AI · Heuristic Optimization · Domain-specific SaaS**
 
 ## 💡 Engineering Philosophy
 
