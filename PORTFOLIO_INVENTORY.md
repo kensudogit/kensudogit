@@ -230,7 +230,21 @@ These repositories are empty, template/reference-oriented, minimally differentia
 
 | Repository | Decision |
 |---|---|
-| ReceivablesManagement | **Do not archive yet.** It is empty, but the name is useful as the corrected destination for the current ReservationManagement repository, whose content is actually a receivables-management system. Resolve repository naming first. |
+| ReceivablesManagement | **Do not archive.** Reserve this empty name for the receivables-management implementation currently stored in ReservationManagement. Naming notes have been added to both active implementation READMEs. |
+
+### Repository rename plan
+
+Target end state:
+
+| Current repository | Actual role | Intended final name |
+|---|---|---|
+| ReservationManagement | Receivables management | ReceivablesManagement |
+| ReceivablesManagement | Empty name placeholder | Consumed/freed during rename |
+| ReservationManagement- | Studio reservation management | ReservationManagement |
+
+Required execution order: **free the empty ReceivablesManagement name → rename current ReservationManagement to ReceivablesManagement → rename ReservationManagement- to ReservationManagement**.
+
+The connected GitHub tooling currently does not expose repository rename/delete/archive settings, so this sequence is documented rather than simulated through file copies.
 
 ### Archive execution rule
 
