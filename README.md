@@ -24,6 +24,7 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | 📈 **FinTech & Quant** | Quant/FX analytics, backtesting, digital banking and lending systems |
 | 🏥 **Healthcare AI** | AI-assisted healthcare platforms, FHIR/HL7 interoperability, DICOM/PACS and voice automation |
 | ☁️ **Cloud & SaaS** | Full-stack business applications and AWS-based systems |
+| 🔄 **Architecture Migration** | Cross-stack migration across Go, Java, Kotlin and enterprise platforms while preserving shared API contracts |
 
 ## ⭐ Selected Projects
 
@@ -45,6 +46,19 @@ I build practical AI-powered developer tools, software-quality automation, quant
 | **Quant / FX** | [**fx**](https://github.com/kensudogit/fx) | Technical & fundamental analysis, ML prediction, backtesting and trading workflows |
 | **Digital Banking** | [**internet-banking**](https://github.com/kensudogit/internet-banking) | Accounts, transfers, transaction history, deposits, lending and multi-factor security |
 | **Lending** | [**mortgage_loan**](https://github.com/kensudogit/mortgage_loan) | Mortgage products, repayment simulation, applications, screening and customer management |
+
+---
+
+## 🔄 Architecture Migration Series
+
+| Edition | Project | Engineering focus |
+|---|---|---|
+| **Go Baseline** | [**andpad**](https://github.com/kensudogit/andpad) | Go + gqlgen + GraphQL + Next.js reference architecture |
+| **Java** | [**andpad_j**](https://github.com/kensudogit/andpad_j) | Java 21 + Spring Boot + Spring GraphQL migration |
+| **Kotlin** | [**andpad_kot**](https://github.com/kensudogit/andpad_kot) | Kotlin migration with shared GraphQL contract and responsive frontend |
+| **Enterprise** | [**andpad_mart**](https://github.com/kensudogit/andpad_mart) | intra-mart integration, WAR deployment, authentication and approval workflows |
+
+**Migration theme:** preserve the domain model, GraphQL contract and frontend experience while changing backend technology and enterprise integration layers.
 
 ---
 
@@ -77,7 +91,7 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Digital Banking · Lending · Healthcare AI · Heuristic Optimization · Domain-specific SaaS**
+Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Digital Banking · Lending · Healthcare AI · Architecture Migration · Heuristic Optimization · Domain-specific SaaS**
 
 ## 💡 Engineering Philosophy
 
@@ -87,6 +101,6 @@ I focus on making requirements explicit, improving software quality, and rapidly
 
 ## 🤝 Collaboration
 
-Interested in **AI development, software architecture, design-quality automation, FinTech, Healthcare AI and SaaS engineering**.
+Interested in **AI development, software architecture, architecture migration, design-quality automation, FinTech, Healthcare AI and SaaS engineering**.
 
 Explore my repositories for current projects, prototypes and engineering experiments.
