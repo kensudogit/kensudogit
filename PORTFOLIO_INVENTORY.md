@@ -1,6 +1,6 @@
 # Portfolio Inventory
 
-> Updated: 2026-10-06  
+> Updated: 2026-10-07  
 > Scope: 130 public repositories discovered for `kensudogit`.
 >
 > This is a portfolio-governance inventory. **C does not mean deleted or already archived.** It means cleanup/archive/integration candidate.
@@ -269,6 +269,31 @@ A first-pass review of B-tier repositories identified a small set that should be
 | cooola | Distinct warehouse-management domain with Spring Boot, AWS and observability stack | **Keep B** |
 
 This review intentionally avoids mass-demoting B-tier repositories. The next B-tier pass should focus on generic framework projects, duplicated domain implementations, and repositories whose README promises significantly more than the implementation demonstrates.
+
+## Strategic Investment Focus
+
+Portfolio cleanup is considered complete enough to shift from repository-count optimization to **asset-group investment**.
+
+| Priority | Asset group | Core repository | Supporting repositories | Next development objective |
+|---|---|---|---|---|
+| 1 | Enterprise AI / RAG / AI Engineering | BedrockKnowledgeBase | TechnologySuccession, AI-agent, neo4j-app, chatbot, ChatgptSkillsCatalog | Governed RAG/agent platform with measurable evaluation and reproducible deployment |
+| 2 | FinTech / Quant / Optimization | FinancialStrategyOptimizer | Fintech, fx, StockPricePpredictionTool-, heuristic-optimizer | Reproducible cross-asset strategy evaluation with explicit risk/evidence boundaries |
+| 3 | Software Engineering Automation | DesignStandardChecklist | Code_Migration, WPAIPublisher, DataInfrastructureSystem | Standards → review → transformation → quality gate → delivery workflow |
+
+Healthcare AI and Enterprise SaaS remain domain showcases rather than additional investment pillars.
+
+### Core-repository completion criteria
+
+The three core repositories now expose a common portfolio pattern: **problem/solution → architecture → differentiators → reviewer demo path → evaluation evidence → maturity boundary**. Future work should improve implementation evidence rather than create additional overlapping repositories.
+
+### Work intentionally left outside connector execution
+
+- Physical archive of approved C-tier repositories.
+- Repository rename sequence for ReservationManagement / ReceivablesManagement.
+- Profile pinned-repository changes.
+- GitHub Traffic-based prioritization when Views/Unique visitors/Clones are not available through the connected actions.
+
+These are GitHub account/repository settings or analytics operations, not unfinished README analysis.
 
 ## Governance Rules
 
