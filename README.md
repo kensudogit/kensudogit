@@ -2,71 +2,92 @@
 
 # Kenichi Sudo
 
-### AI / Full-Stack Engineer · Design Quality Automation · FinTech · Healthcare AI
+### AI / Full-Stack Engineer · Software Architecture · Design Quality Automation
 
-**Turning engineering knowledge into reusable software assets.**
+**Turning engineering knowledge and domain expertise into reusable software assets.**
 
 [![GitHub followers](https://img.shields.io/github/followers/kensudogit?style=flat-square&logo=github)](https://github.com/kensudogit?tab=followers)
 [![Profile](https://img.shields.io/badge/GitHub-kensudogit-181717?style=flat-square&logo=github)](https://github.com/kensudogit)
 
 </div>
 
-I build practical AI-powered developer tools, software-quality automation, quantitative finance tools, healthcare AI platforms, and production-oriented SaaS. My focus is turning requirements, design standards, and domain knowledge into software that can be reused and improved.
+I build practical AI systems, developer tools, business platforms and architecture prototypes across **AI Engineering, Design Quality, FinTech, Healthcare AI, Cloud/AWS and Enterprise SaaS**.
+
+My engineering focus is turning requirements, design standards and domain knowledge into software that can be reused, migrated and improved.
 
 ---
 
-## 🚀 Focus Areas
+## ⭐ Featured Work
 
-| Area | What I build |
+| Project | Engineering value |
 |---|---|
-| 🤖 **AI Engineering** | AI agents, reusable skills, RAG, MCP and developer automation |
-| 📐 **Design Quality** | Design-standard automation, checklist generation and AI-assisted review |
-| 📈 **FinTech & Quant** | Quant/FX analytics, backtesting, digital banking and lending systems |
-| 🏥 **Healthcare AI** | AI-assisted healthcare platforms, FHIR/HL7 interoperability, DICOM/PACS and voice automation |
-| ☁️ **Cloud & SaaS** | AWS-backed content search, full-stack business applications and domain SaaS |
-| 🔄 **Architecture Migration** | Cross-stack migration across Go, Java, Kotlin and enterprise platforms while preserving shared API contracts |
-
-## ⭐ Selected Projects
-
-| Project | Focus |
-|---|---|
-| 📐 [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) | Converts software design standards into practical review checklists |
-| 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Reusable AI skills for software-engineering workflows |
-| 📈 [**fx**](https://github.com/kensudogit/fx) | FX / financial-engineering development |
-| 🧠 [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) | Heuristic optimization and solution-search experimentation |
+| 📐 [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) | Converts software design standards into traceable, practical review checklists |
+| 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Platform for managing and reusing AI skills in engineering workflows |
+| 📈 [**fx**](https://github.com/kensudogit/fx) | Quant / FX analytics, prediction, backtesting and trading workflows |
 | 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI with FHIR/HL7, DICOM/PACS and secure interoperability |
-| 🧩 [**KadenSaas**](https://github.com/kensudogit/KadenSaas) | Domain-oriented SaaS engineering |
+| 🧠 [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) | Heuristic search and optimization for complex solution spaces |
 
 ---
 
-## 💹 FinTech Portfolio
+## 🧭 Engineering Portfolio
 
-| Domain | Project | Highlights |
+| Track | Representative projects | What they demonstrate |
 |---|---|---|
-| **Quant / FX** | [**fx**](https://github.com/kensudogit/fx) | Technical & fundamental analysis, ML prediction, backtesting and trading workflows |
-| **Digital Banking** | [**internet-banking**](https://github.com/kensudogit/internet-banking) | Accounts, transfers, transaction history, deposits, lending and multi-factor security |
-| **Lending** | [**mortgage_loan**](https://github.com/kensudogit/mortgage_loan) | Mortgage products, repayment simulation, applications, screening and customer management |
-
----
-
-## ☁️ Cloud / AWS Project
-
-| Project | Architecture | Focus |
-|---|---|---|
-| ☁️ [**slp-next**](https://github.com/kensudogit/slp-next) | Next.js + TypeScript + DynamoDB + S3 | WordPress-derived content search, caching, health checks and AWS data integration |
+| 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [chatbot](https://github.com/kensudogit/chatbot) | AI agents, reusable skills, chat foundations, RAG-oriented application architecture |
+| 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
+| 📈 **FinTech & Quant** | [fx](https://github.com/kensudogit/fx) · [internet-banking](https://github.com/kensudogit/internet-banking) · [mortgage_loan](https://github.com/kensudogit/mortgage_loan) | Quant analysis, backtesting, banking, lending and financial workflows |
+| 🏥 **Healthcare AI** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) | Healthcare interoperability, medical AI and voice automation |
+| ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
+| 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
+| 🏢 **Enterprise SaaS** | [membership](https://github.com/kensudogit/membership) · [KadenSaas](https://github.com/kensudogit/KadenSaas) · [parking](https://github.com/kensudogit/parking) | Microservices, payments, reservations, contact-center SaaS and operational platforms |
+| 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
+| 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
+| 🧠 **Optimization** | [heuristic-optimizer](https://github.com/kensudogit/heuristic-optimizer) | Heuristic algorithms, solution search and optimization-oriented system design |
 
 ---
 
 ## 🔄 Architecture Migration Series
 
-| Edition | Project | Engineering focus |
-|---|---|---|
-| **Go Baseline** | [**andpad**](https://github.com/kensudogit/andpad) | Go + gqlgen + GraphQL + Next.js reference architecture |
-| **Java** | [**andpad_j**](https://github.com/kensudogit/andpad_j) | Java 21 + Spring Boot + Spring GraphQL migration |
-| **Kotlin** | [**andpad_kot**](https://github.com/kensudogit/andpad_kot) | Kotlin migration with shared GraphQL contract and responsive frontend |
-| **Enterprise** | [**andpad_mart**](https://github.com/kensudogit/andpad_mart) | intra-mart integration, WAR deployment, authentication and approval workflows |
+```text
+Go / GraphQL baseline
+        │
+        ├── Java / Spring GraphQL
+        ├── Kotlin
+        └── intra-mart / Enterprise Integration
+```
 
-**Migration theme:** preserve the domain model, GraphQL contract and frontend experience while changing backend technology and enterprise integration layers.
+The [ANDPAD architecture series](https://github.com/kensudogit/andpad) explores how to preserve the **domain model, GraphQL contract and frontend experience** while changing backend technology and enterprise integration layers.
+
+---
+
+## ☁️ Cloud Architecture
+
+```text
+Content / Data
+     │
+     ├── Next.js ── DynamoDB / S3       → slp-next
+     │
+     └── API Gateway ── Lambda ── DynamoDB
+                         │
+                         └── Async scraping / processing
+```
+
+This pair demonstrates both the application-facing and serverless-processing sides of AWS-oriented development.
+
+---
+
+## 🏢 Product Evolution
+
+```text
+Telemarketing Platform
+   Domain foundation
+        │
+        ▼
+     KadenSaas
+ AI / Cloud Calling SaaS
+```
+
+The [telemarketing foundation](https://github.com/kensudogit/telemarketing-) and [KadenSaas](https://github.com/kensudogit/KadenSaas) show progression from contact-center domain modeling to product-oriented AI / cloud calling SaaS.
 
 ---
 
@@ -83,7 +104,7 @@ I build practical AI-powered developer tools, software-quality automation, quant
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-**Also:** Oracle · MySQL · DynamoDB · GitHub Actions · LLM · RAG · MCP · Heuristic Optimization
+**Also:** GraphQL · Kotlin · PHP · MySQL · DynamoDB · S3 · gRPC · Redis · GCP · GitHub Actions · LLM · RAG · MCP · Heuristic Optimization
 
 ---
 
@@ -99,16 +120,14 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Design Review · Design Standard Automation · AI Developer Skills · Quant/FX · Digital Banking · Lending · Healthcare AI · Architecture Migration · Heuristic Optimization · Domain-specific SaaS**
+Current themes: **AI Engineering · Design Quality Automation · Quant/FX · Healthcare AI · Cloud/Serverless · Architecture Migration · Enterprise SaaS · Optimization**
 
 ## 💡 Engineering Philosophy
 
 > **Turn engineering knowledge into reusable software assets.**
 
-I focus on making requirements explicit, improving software quality, and rapidly turning ideas into practical systems.
+I focus on making requirements explicit, improving software quality and rapidly turning domain ideas into practical systems.
 
 ## 🤝 Collaboration
 
-Interested in **AI development, software architecture, architecture migration, design-quality automation, FinTech, Healthcare AI and SaaS engineering**.
-
-Explore my repositories for current projects, prototypes and engineering experiments.
+Interested in **AI development, software architecture, architecture migration, design-quality automation, FinTech, Healthcare AI, Cloud/AWS and Enterprise SaaS engineering**.
