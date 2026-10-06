@@ -11,7 +11,7 @@
 
 </div>
 
-I build practical AI systems, developer tools, business platforms and architecture prototypes across **AI Engineering, Design Quality, FinTech, Healthcare AI, Cloud/AWS and Enterprise SaaS**.
+I build practical AI systems, developer tools, business platforms and modernization prototypes across **AI Engineering, Design Quality, FinTech, Healthcare AI, Cloud/AWS, Enterprise SaaS and Legacy Modernization**.
 
 My engineering focus is turning requirements, design standards and domain knowledge into software that can be reused, migrated and improved.
 
@@ -39,6 +39,7 @@ My engineering focus is turning requirements, design standards and domain knowle
 | 🏥 **Healthcare AI** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) | Healthcare interoperability, medical AI and voice automation |
 | ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
 | 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
+| 🏭 **Legacy Modernization & Knowledge Succession** | [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [Code_Migration](https://github.com/kensudogit/Code_Migration) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Manufacturing RAG, AI-assisted code conversion and COBOL/CICS/DB2 modernization |
 | 🏢 **Enterprise SaaS** | [membership](https://github.com/kensudogit/membership) · [KadenSaas](https://github.com/kensudogit/KadenSaas) · [parking](https://github.com/kensudogit/parking) | Microservices, payments, reservations, contact-center SaaS and operational platforms |
 | 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
 | 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
@@ -57,6 +58,29 @@ Go / GraphQL baseline
 ```
 
 The [ANDPAD architecture series](https://github.com/kensudogit/andpad) explores how to preserve the **domain model, GraphQL contract and frontend experience** while changing backend technology and enterprise integration layers.
+
+---
+
+## 🏭 Legacy Modernization & Knowledge Succession
+
+```text
+Operational Knowledge                 Legacy Source / Systems
+Excel · Reports · PDF                 COBOL · CICS · DB2
+          │                                  │
+          ▼                                  ▼
+TechnologySuccession                  cobol / Code_Migration
+   RAG + pgvector                     Mapping + AI Conversion
+          │                                  │
+          └──────────────┬───────────────────┘
+                         ▼
+                    transplant
+              System-level Cloud Migration
+                         │
+                         ▼
+             Spring / Kafka / Kubernetes / AWS
+```
+
+This track connects **knowledge preservation, source-code modernization and system-level migration**: [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) preserves operational know-how with RAG, [Code_Migration](https://github.com/kensudogit/Code_Migration) applies AI to multi-language conversion, [cobol](https://github.com/kensudogit/cobol) documents COBOL-to-Java migration patterns, and [transplant](https://github.com/kensudogit/transplant) demonstrates mainframe-to-cloud architecture.
 
 ---
 
@@ -120,7 +144,7 @@ AI-assisted Review & Automation
 Production-ready Software Assets
 ```
 
-Current themes: **AI Engineering · Design Quality Automation · Quant/FX · Healthcare AI · Cloud/Serverless · Architecture Migration · Enterprise SaaS · Optimization**
+Current themes: **AI Engineering · Design Quality Automation · Quant/FX · Healthcare AI · Cloud/Serverless · Architecture Migration · Legacy Modernization · Knowledge Succession · Enterprise SaaS · Optimization**
 
 ## 💡 Engineering Philosophy
 
@@ -130,4 +154,4 @@ I focus on making requirements explicit, improving software quality and rapidly 
 
 ## 🤝 Collaboration
 
-Interested in **AI development, software architecture, architecture migration, design-quality automation, FinTech, Healthcare AI, Cloud/AWS and Enterprise SaaS engineering**.
+Interested in **AI development, software architecture, legacy modernization, knowledge succession, architecture migration, design-quality automation, FinTech, Healthcare AI, Cloud/AWS and Enterprise SaaS engineering**.
