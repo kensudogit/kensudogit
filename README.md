@@ -22,10 +22,11 @@ My engineering focus is turning requirements, design standards and domain knowle
 | Project | Engineering value |
 |---|---|
 | 📐 [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) | Converts software design standards into traceable, practical review checklists |
-| 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Platform for managing and reusing AI skills in engineering workflows |
-| 📈 [**fx**](https://github.com/kensudogit/fx) | Quant / FX analytics, prediction, backtesting and trading workflows |
-| 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI with FHIR/HL7, DICOM/PACS and secure interoperability |
-| 🧠 [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) | Heuristic search and optimization for complex solution spaces |
+| 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Reusable AI skills platform with ZIP/Git ingestion, search, synchronization and deployment workflows |
+| ☁️ [**BedrockKnowledgeBase**](https://github.com/kensudogit/BedrockKnowledgeBase) | Enterprise AWS GenAI platform combining Bedrock, RAG, Agents, guardrails, evaluation and Terraform |
+| 📈 [**Fintech**](https://github.com/kensudogit/Fintech) | Enterprise financial AI for lending, valuation, evidence-led decision support and RAG |
+| 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI with FHIR/HL7, DICOM/PACS, EMR and secure interoperability |
+| 🏭 [**TechnologySuccession**](https://github.com/kensudogit/TechnologySuccession) | Manufacturing knowledge succession using hybrid RAG, pgvector and measurable retrieval evaluation |
 
 ---
 
