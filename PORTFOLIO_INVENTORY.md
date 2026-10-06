@@ -51,6 +51,25 @@
 - [defence_logistics-](../defence_logistics-)
 - [fire-caption-micro1](../fire-caption-micro1)
 
+## A Review — S Promotion Pipeline
+
+The S tier remains intentionally capped at six flagship repositories. The following A-tier assets are the strongest **next S candidates** rather than immediate promotions.
+
+| Priority | Repository | Assessment |
+|---|---|---|
+| 1 | [FinancialStrategyOptimizer](../FinancialStrategyOptimizer) | Strong cross-asset integration: FX + equity + heuristic optimization + backtesting; strongest candidate for a future FinTech/Quant flagship |
+| 2 | [KadenSaas](../KadenSaas) | Strong domain architecture with dialing gate, idempotency, tenant isolation, voice/AI integration, and operational safeguards |
+| 3 | [Code_Migration](../Code_Migration) | Clear AI-assisted modernization story; complements COBOL reference and system-level migration architecture |
+| 4 | [MedicalImageRecognition](../MedicalImageRecognition) | Standalone healthcare AI service with local CV/OpenAI Vision, benchmarking, caching, and concurrency controls |
+| 5 | [DataInfrastructureSystem](../DataInfrastructureSystem) | Strong data-engineering architecture across multi-channel ingestion, ETL/ELT, DWH, BI, and AI |
+| 6 | [WPAIPublisher](../WPAIPublisher) | Distinct AI software-delivery workflow with quality gates, visual regression, RAG reuse, CI/CD, and WordPress deployment |
+
+### A-tier decisions
+
+- **Keep A:** AI-agent, chatbot, neo4j-app, fx, StockPricePpredictionTool-, FinancialStrategyOptimizer, heuristic-optimizer, KadenSaas, OutboundCallingSaas, MediCall_AI, DisabilityClaim, MedicalImageRecognition, Code_Migration, cobol, transplant, RagAzure, medicalcare-electronic-application, medicalcare-electronic-application-micro, lambda, bosai, WPAIPublisher, DataInfrastructureSystem, defence_logistics-, fire-caption-micro1.
+- **No A → B demotions in this review.** Each A repository currently contributes a differentiated technology, domain, architecture, or modernization story.
+- Future S promotion should normally replace an existing S entry rather than continuously expanding S.
+
 ## B — Complementary Assets
 
 - [docker-db2](../docker-db2)
