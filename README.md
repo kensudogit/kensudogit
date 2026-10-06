@@ -41,7 +41,7 @@ Six flagship projects are selected to show complementary engineering strengths r
 | 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [BedrockKnowledgeBase](https://github.com/kensudogit/BedrockKnowledgeBase) · [neo4j-app](https://github.com/kensudogit/neo4j-app) · [chatbot](https://github.com/kensudogit/chatbot) | Reusable AI skills, agents, AWS Bedrock/RAG, knowledge graphs and production-oriented chat foundations |
 | 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
 | 📈 **FinTech & Quant** | [FinancialStrategyOptimizer](https://github.com/kensudogit/FinancialStrategyOptimizer) · [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) | Strategy optimization, FX/quant analytics, enterprise financial AI and equity AI agents |
-| 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) · [medicalcare-electronic-application](https://github.com/kensudogit/medicalcare-electronic-application) | Clinical interoperability, medical voice AI, welfare-service billing and regulated administrative workflows |
+| 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MedicalImageRecognition](https://github.com/kensudogit/MedicalImageRecognition) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) | Clinical interoperability, medical imaging AI, medical voice AI and welfare-service workflows |
 | ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
 | 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
 | 🏭 **Legacy Modernization & Knowledge Succession** | [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [Code_Migration](https://github.com/kensudogit/Code_Migration) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Manufacturing RAG, AI-assisted code conversion and COBOL/CICS/DB2 modernization |
@@ -79,22 +79,30 @@ Together these projects demonstrate the path from **reusable AI capabilities →
 ## 📈 FinTech AI Portfolio
 
 ```text
-                    Financial AI
-                         │
-        ┌────────────────┼────────────────┐
-        ▼                ▼                ▼
-       fx              Fintech       StockPricePpredictionTool-
- FX / Quant       Enterprise AI        Equity AI Agent
-        │                │                │
- Technical/ML     Lending / Value     OOS Evaluation
- Backtesting      Decision Support    Risk / Execution
+                         Financial AI
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        ▼                     ▼                     ▼
+       fx                  Fintech       StockPricePpredictionTool-
+   FX / Quant          Enterprise AI        Equity AI Agent
+        │                     │                     │
+        └──────────────┬──────┴──────────────┬──────┘
+                       ▼                     │
+             FinancialStrategyOptimizer ◄────┘
+                Integration Layer
+                       │
+                       ▼
+          Backtest → KPI → Search
+          → Optimize → Compare → Report
 ```
 
+- [**FinancialStrategyOptimizer**](https://github.com/kensudogit/FinancialStrategyOptimizer) — flagship integration layer combining equity, FX, common backtesting/KPI, reproducible parameter search, strategy comparison and reporting.
 - [**fx**](https://github.com/kensudogit/fx) — FX technical/fundamental analysis, ML prediction, backtesting and risk-oriented trading workflows.
 - [**Fintech**](https://github.com/kensudogit/Fintech) — enterprise financial AI for lending, valuation, evidence-led decision support and financial RAG.
 - [**StockPricePpredictionTool-**](https://github.com/kensudogit/StockPricePpredictionTool-) — equity AI agent platform with walk-forward OOS evaluation, risk gates, paper/live execution controls and RAG.
+- [**heuristic-optimizer**](https://github.com/kensudogit/heuristic-optimizer) — reusable optimization engine supporting reproducible search and constrained solution exploration.
 
-Together these projects cover **market analytics, institutional decision support and AI-assisted investment workflows** rather than presenting FinTech as a single trading application.
+Together these projects form a layered portfolio from **market/equity analytics and enterprise financial intelligence → reusable optimization → integrated quantitative strategy evaluation**.
 
 ---
 
@@ -138,24 +146,29 @@ This track connects **knowledge preservation, source-code modernization and syst
 ## 🏥 Healthcare AI & Digital Health
 
 ```text
-                       Healthcare Platform
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        ▼                     ▼                     ▼
- Clinical / Hospital       Voice AI          Administrative Systems
-        │                     │                     │
- NextGen AI Healthcare    MediCall AI       ┌────────┴────────┐
- FHIR · HL7 · DICOM       Call Automation   ▼                 ▼
- PACS · EMR · AI          Safe Escalation  DisabilityClaim   Medical e-Application
-                                           Welfare Billing   Approval / Audit
+                       Healthcare AI Platform
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        ▼                      ▼                      ▼
+ Clinical Integration     Medical Imaging         Voice AI
+        │                      │                      │
+ NextGen AI Healthcare  MedicalImageRecognition  MediCall AI
+ FHIR · HL7 · DICOM      Local CV / Vision AI    Call Automation
+ PACS · EMR · AI         Cache / Benchmark       Safe Escalation
+        │
+        └──────────────────────┬──────────────────────┐
+                               ▼                      ▼
+                       DisabilityClaim       Medical e-Application
+                       Welfare Billing       Approval / Audit
 ```
 
-- [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) — hospital interoperability across EMR, PACS/DICOM, HL7/FHIR, secure identity and AI-assisted clinical workflows.
+- [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) — flagship hospital interoperability platform across EMR, PACS/DICOM, HL7/FHIR, secure identity and AI-assisted clinical workflows.
+- [**MedicalImageRecognition**](https://github.com/kensudogit/MedicalImageRecognition) — standalone medical-imaging AI service with local CV, Vision AI, caching, concurrency controls, benchmarking and cloud-AI fallback.
 - [**MediCall_AI**](https://github.com/kensudogit/MediCall_AI) — medical voice automation with appointment workflows, safe escalation, conversation summarization and staff operations.
 - [**DisabilityClaim**](https://github.com/kensudogit/DisabilityClaim) — disability welfare-service billing with recipient management, Excel migration, reproducible calculation/validation and claims-data adapters.
 - [**medicalcare-electronic-application**](https://github.com/kensudogit/medicalcare-electronic-application) — regulated healthcare application workflows with approval, audit trails, document management and medical-imaging AI integration.
 
-Together these projects cover **clinical interoperability, patient communication, welfare-service operations and regulated healthcare administration**.
+Together these projects cover **clinical interoperability, specialized medical-imaging AI, patient communication, welfare-service operations and regulated healthcare administration**.
 
 ---
 
