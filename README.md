@@ -44,7 +44,7 @@ Six flagship projects are selected to show complementary engineering strengths r
 | 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MedicalImageRecognition](https://github.com/kensudogit/MedicalImageRecognition) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) | Clinical interoperability, medical imaging AI, medical voice AI and welfare-service workflows |
 | ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
 | 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
-| 🏭 **Legacy Modernization & Knowledge Succession** | [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [Code_Migration](https://github.com/kensudogit/Code_Migration) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Manufacturing RAG, AI-assisted code conversion and COBOL/CICS/DB2 modernization |
+| 🏭 **Legacy Modernization & Knowledge Succession** | [Code_Migration](https://github.com/kensudogit/Code_Migration) · [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Controlled AI transformation, knowledge preservation, COBOL mapping and system-level migration |
 | 🏢 **Enterprise SaaS** | [KadenSaas](https://github.com/kensudogit/KadenSaas) · [membership](https://github.com/kensudogit/membership) · [parking](https://github.com/kensudogit/parking) | Multi-tenant AI calling, microservices, payments, reservations and operational platforms |
 | 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
 | 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
@@ -120,26 +120,38 @@ The [ANDPAD architecture series](https://github.com/kensudogit/andpad) explores 
 
 ---
 
-## 🏭 Legacy Modernization & Knowledge Succession
+## 🔄 AI-Assisted Legacy Modernization
 
 ```text
-Operational Knowledge                 Legacy Source / Systems
-Excel · Reports · PDF                 COBOL · CICS · DB2
-          │                                  │
-          ▼                                  ▼
-TechnologySuccession                  cobol / Code_Migration
-   RAG + pgvector                     Mapping + AI Conversion
-          │                                  │
-          └──────────────┬───────────────────┘
-                         ▼
-                    transplant
-              System-level Cloud Migration
-                         │
-                         ▼
+Legacy Source / Systems                    Operational Knowledge
+COBOL · CICS · DB2                         Excel · Reports · PDF
+        │                                           │
+        ▼                                           ▼
+      cobol                              TechnologySuccession
+ Mapping / Reference                         RAG + pgvector
+        │                                           │
+        └──────────────────┬────────────────────────┘
+                           ▼
+                     Code_Migration
+                  AI Transformation Layer
+                           │
+          Structured Output · Warnings
+          History · Rules · Traceability
+                           │
+                           ▼
+                       transplant
+                System-level Migration
+                           │
+                           ▼
              Spring / Kafka / Kubernetes / AWS
 ```
 
-This track connects **knowledge preservation, source-code modernization and system-level migration**: [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) preserves operational know-how with RAG, [Code_Migration](https://github.com/kensudogit/Code_Migration) applies AI to multi-language conversion, [cobol](https://github.com/kensudogit/cobol) documents COBOL-to-Java migration patterns, and [transplant](https://github.com/kensudogit/transplant) demonstrates mainframe-to-cloud architecture.
+- [**Code_Migration**](https://github.com/kensudogit/Code_Migration) — flagship AI transformation layer for multi-language modernization, combining structured model output with deterministic processing, warnings and traceable migration history.
+- [**cobol**](https://github.com/kensudogit/cobol) — COBOL modernization reference covering language mapping and migration patterns.
+- [**TechnologySuccession**](https://github.com/kensudogit/TechnologySuccession) — preserves operational know-how with hybrid RAG and measurable retrieval.
+- [**transplant**](https://github.com/kensudogit/transplant) — extends modernization from source transformation to system-level cloud architecture.
+
+The portfolio treats modernization as more than code translation: **understand legacy assets → preserve knowledge → transform with AI under explicit controls → migrate the surrounding system architecture**.
 
 ---
 
@@ -188,18 +200,40 @@ This pair demonstrates both the application-facing and serverless-processing sid
 
 ---
 
-## 🏢 Product Evolution
+## 📞 Enterprise AI Calling SaaS
 
 ```text
-Telemarketing Platform
-   Domain foundation
-        │
-        ▼
-     KadenSaas
- AI / Cloud Calling SaaS
+                   KadenSaas
+        Enterprise AI Calling Platform
+                         │
+          ┌──────────────┼──────────────┐
+          ▼              ▼              ▼
+     Spring Boot      FastAPI        Next.js
+   Domain / Control   Voice / AI     Operations UI
+          │              │              │
+          └──────────────┼──────────────┘
+                         ▼
+                 PostgreSQL / RLS
+                  Tenant Isolation
+                         │
+                         ▼
+                  Twilio Calling
+             CallSid Idempotency Gate
+                         │
+               ┌─────────┴─────────┐
+               ▼                   ▼
+          Media Stream         Recording
+           Voice / AI       Privacy Controls
 ```
 
-The [telemarketing foundation](https://github.com/kensudogit/telemarketing-) and [KadenSaas](https://github.com/kensudogit/KadenSaas) show progression from contact-center domain modeling to product-oriented AI / cloud calling SaaS.
+- [**KadenSaas**](https://github.com/kensudogit/KadenSaas) — flagship enterprise calling architecture combining Java/Spring Boot domain control, Python/FastAPI voice/AI processing, Next.js operations, PostgreSQL tenant isolation, Redis and Twilio.
+- **Dialing safety** — a dialing gate controls outbound execution rather than treating a call request as an unconstrained API action.
+- **Idempotent call handling** — CallSid-oriented processing protects workflows from duplicate provider events.
+- **Tenant isolation** — PostgreSQL RLS provides a database-level boundary for multi-tenant data.
+- **Separated real-time processing** — media-stream/AI workloads are isolated from core domain and operational flows.
+- **Operational safeguards** — recording/privacy concerns and authorization verification are represented as architecture concerns rather than UI-only checks.
+
+The earlier [**telemarketing-**](https://github.com/kensudogit/telemarketing-) repository remains the domain-model foundation; KadenSaas demonstrates its evolution into a **multi-tenant, operationally controlled AI/cloud calling product**.
 
 ---
 
