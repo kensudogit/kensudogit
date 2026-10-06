@@ -19,14 +19,18 @@ My engineering focus is turning requirements, design standards and domain knowle
 
 ## ⭐ Featured Work
 
-| Project | Engineering value |
-|---|---|
-| 📐 [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) | Converts software design standards into traceable, practical review checklists |
-| 🤖 [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) | Reusable AI skills platform with ZIP/Git ingestion, search, synchronization and deployment workflows |
-| ☁️ [**BedrockKnowledgeBase**](https://github.com/kensudogit/BedrockKnowledgeBase) | Enterprise AWS GenAI platform combining Bedrock, RAG, Agents, guardrails, evaluation and Terraform |
-| 📈 [**Fintech**](https://github.com/kensudogit/Fintech) | Enterprise financial AI for lending, valuation, evidence-led decision support and RAG |
-| 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI with FHIR/HL7, DICOM/PACS, EMR and secure interoperability |
-| 🏭 [**TechnologySuccession**](https://github.com/kensudogit/TechnologySuccession) | Manufacturing knowledge succession using hybrid RAG, pgvector and measurable retrieval evaluation |
+Six flagship projects are selected to show complementary engineering strengths rather than multiple variations of the same theme.
+
+| Project | Flagship role | Engineering value |
+|---|---|---|
+| 📐 [**DesignStandardChecklist**](https://github.com/kensudogit/DesignStandardChecklist) | Design Quality Automation | Converts software design standards into traceable, reusable review checklists and AI-assisted quality workflows |
+| ☁️ [**BedrockKnowledgeBase**](https://github.com/kensudogit/BedrockKnowledgeBase) | AWS / Enterprise GenAI | Bedrock, RAG, Agents, guardrails, evaluation and Terraform-based enterprise GenAI architecture |
+| 🏥 [**NextGen_AI_Healthcare_Platform**](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) | Healthcare AI Platform | FHIR/HL7, DICOM/PACS, EMR, secure identity and AI-assisted clinical interoperability |
+| 📈 [**FinancialStrategyOptimizer**](https://github.com/kensudogit/FinancialStrategyOptimizer) | FinTech / Quant | Integrates equity, FX, backtesting, KPI evaluation and reproducible heuristic strategy optimization |
+| 📞 [**KadenSaas**](https://github.com/kensudogit/KadenSaas) | Enterprise SaaS / AI Calling | Multi-tenant calling SaaS with dialing safety, Twilio idempotency, PostgreSQL RLS, voice/AI separation and operational verification |
+| 🔄 [**Code_Migration**](https://github.com/kensudogit/Code_Migration) | AI Legacy Modernization | Schema-constrained AI code transformation with deterministic rules, warnings, traceable job history and multi-language migration |
+
+**Flagship coverage:** Design Quality · Enterprise GenAI/AWS · Healthcare AI · FinTech/Quant · Enterprise SaaS · Legacy Modernization
 
 ---
 
@@ -36,12 +40,12 @@ My engineering focus is turning requirements, design standards and domain knowle
 |---|---|---|
 | 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [BedrockKnowledgeBase](https://github.com/kensudogit/BedrockKnowledgeBase) · [neo4j-app](https://github.com/kensudogit/neo4j-app) · [chatbot](https://github.com/kensudogit/chatbot) | Reusable AI skills, agents, AWS Bedrock/RAG, knowledge graphs and production-oriented chat foundations |
 | 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
-| 📈 **FinTech & Quant** | [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) · [internet-banking](https://github.com/kensudogit/internet-banking) | FX/quant analytics, enterprise financial AI, equity AI agents, banking and decision-support workflows |
+| 📈 **FinTech & Quant** | [FinancialStrategyOptimizer](https://github.com/kensudogit/FinancialStrategyOptimizer) · [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) | Strategy optimization, FX/quant analytics, enterprise financial AI and equity AI agents |
 | 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) · [medicalcare-electronic-application](https://github.com/kensudogit/medicalcare-electronic-application) | Clinical interoperability, medical voice AI, welfare-service billing and regulated administrative workflows |
 | ☁️ **Cloud / AWS** | [slp-next](https://github.com/kensudogit/slp-next) · [lambda](https://github.com/kensudogit/lambda) | AWS content search, DynamoDB/S3, Lambda, API Gateway and serverless processing |
 | 🔄 **Architecture Migration** | [andpad](https://github.com/kensudogit/andpad) · [andpad_j](https://github.com/kensudogit/andpad_j) · [andpad_kot](https://github.com/kensudogit/andpad_kot) · [andpad_mart](https://github.com/kensudogit/andpad_mart) | Cross-stack migration across Go, Java, Kotlin and enterprise platforms |
 | 🏭 **Legacy Modernization & Knowledge Succession** | [TechnologySuccession](https://github.com/kensudogit/TechnologySuccession) · [Code_Migration](https://github.com/kensudogit/Code_Migration) · [cobol](https://github.com/kensudogit/cobol) · [transplant](https://github.com/kensudogit/transplant) | Manufacturing RAG, AI-assisted code conversion and COBOL/CICS/DB2 modernization |
-| 🏢 **Enterprise SaaS** | [membership](https://github.com/kensudogit/membership) · [KadenSaas](https://github.com/kensudogit/KadenSaas) · [parking](https://github.com/kensudogit/parking) | Microservices, payments, reservations, contact-center SaaS and operational platforms |
+| 🏢 **Enterprise SaaS** | [KadenSaas](https://github.com/kensudogit/KadenSaas) · [membership](https://github.com/kensudogit/membership) · [parking](https://github.com/kensudogit/parking) | Multi-tenant AI calling, microservices, payments, reservations and operational platforms |
 | 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
 | 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
 | 🧠 **Optimization** | [heuristic-optimizer](https://github.com/kensudogit/heuristic-optimizer) | Heuristic algorithms, solution search and optimization-oriented system design |
