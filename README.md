@@ -33,7 +33,7 @@ My engineering focus is turning requirements, design standards and domain knowle
 
 | Track | Representative projects | What they demonstrate |
 |---|---|---|
-| 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [chatbot](https://github.com/kensudogit/chatbot) | AI agents, reusable skills, chat foundations, RAG-oriented application architecture |
+| 🤖 **AI Engineering** | [ChatgptSkillsCatalog](https://github.com/kensudogit/ChatgptSkillsCatalog) · [AI-agent](https://github.com/kensudogit/AI-agent) · [BedrockKnowledgeBase](https://github.com/kensudogit/BedrockKnowledgeBase) · [neo4j-app](https://github.com/kensudogit/neo4j-app) · [chatbot](https://github.com/kensudogit/chatbot) | Reusable AI skills, agents, AWS Bedrock/RAG, knowledge graphs and production-oriented chat foundations |
 | 📐 **Design Quality** | [DesignStandardChecklist](https://github.com/kensudogit/DesignStandardChecklist) | Design-standard automation, traceability, checklist generation and AI-assisted review |
 | 📈 **FinTech & Quant** | [fx](https://github.com/kensudogit/fx) · [Fintech](https://github.com/kensudogit/Fintech) · [StockPricePpredictionTool-](https://github.com/kensudogit/StockPricePpredictionTool-) · [internet-banking](https://github.com/kensudogit/internet-banking) | FX/quant analytics, enterprise financial AI, equity AI agents, banking and decision-support workflows |
 | 🏥 **Healthcare AI & Digital Health** | [NextGen_AI_Healthcare_Platform](https://github.com/kensudogit/NextGen_AI_Healthcare_Platform) · [MediCall_AI](https://github.com/kensudogit/MediCall_AI) · [DisabilityClaim](https://github.com/kensudogit/DisabilityClaim) · [medicalcare-electronic-application](https://github.com/kensudogit/medicalcare-electronic-application) | Clinical interoperability, medical voice AI, welfare-service billing and regulated administrative workflows |
@@ -44,6 +44,30 @@ My engineering focus is turning requirements, design standards and domain knowle
 | 🌐 **Distributed Backend** | [food](https://github.com/kensudogit/food) | REST/gRPC, caching, observability, containers and GCP-oriented API architecture |
 | 🗺️ **Geospatial / Disaster Prevention** | [bosai](https://github.com/kensudogit/bosai) | Leaflet, geospatial layers, weather visualization and time-oriented disaster information |
 | 🧠 **Optimization** | [heuristic-optimizer](https://github.com/kensudogit/heuristic-optimizer) | Heuristic algorithms, solution search and optimization-oriented system design |
+
+---
+
+## 🤖 AI Engineering Platform
+
+```text
+                         AI Engineering
+                               │
+      ┌────────────┬───────────┼───────────┬────────────┐
+      ▼            ▼           ▼           ▼            ▼
+ Skills Platform  AI Agent   AWS GenAI   Knowledge     Chat Foundation
+      │            │           │          Graph             │
+ChatgptSkills   AI-agent   Bedrock KB   neo4j-app        chatbot
+ Catalog        Tools /     RAG/Agents   Relationships   Auth / History
+ Reuse/Sync     Streaming   Guardrails   Graph Search   Operations
+```
+
+- [**ChatgptSkillsCatalog**](https://github.com/kensudogit/ChatgptSkillsCatalog) — reusable AI skill catalog with ZIP/Git ingestion, search, synchronization and AWS-ready deployment.
+- [**AI-agent**](https://github.com/kensudogit/AI-agent) — real-time conversational agent with streaming, voice input, tool execution and persistent sessions.
+- [**BedrockKnowledgeBase**](https://github.com/kensudogit/BedrockKnowledgeBase) — enterprise AWS generative-AI platform covering Bedrock, Knowledge Bases, Agents, guardrails, evaluation, RAG and Terraform IaC.
+- [**neo4j-app**](https://github.com/kensudogit/neo4j-app) — full-stack knowledge-graph implementation using Neo4j, FastAPI and Next.js for relationship-oriented retrieval.
+- [**chatbot**](https://github.com/kensudogit/chatbot) — operational AI application foundation emphasizing authentication, conversation history, REST APIs and monitoring.
+
+Together these projects demonstrate the path from **reusable AI capabilities → autonomous agents → enterprise RAG → graph knowledge → operational application foundations**.
 
 ---
 
